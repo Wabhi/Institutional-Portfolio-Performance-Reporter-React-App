@@ -1,15 +1,10 @@
-import { useState } from 'react'
-import ReportDashboard from './features/reports/ReportDashboard'
-import './App.css'
+import React from 'react';
+import { ReportDashboard } from './features/reports/ReportDashboard';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <ReportDashboard />
-    </>
+    <ReportDashboard/>
   )
 }
 
-export default App
+export default App;
