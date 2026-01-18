@@ -1,4 +1,9 @@
 import React from "react"
+import ReportSearch from "./ReportSearch";
+import SectorFilter from "./SectotFilter";
+import ReportSummary from "./ReportSummary";
+import ReportTable from "./ReportTable";
+
 const ReportDashboard = () => {
     const { dispatch } = useStore();
 
