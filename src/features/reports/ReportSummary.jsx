@@ -22,7 +22,7 @@ export const ReportSummary = () => {
   }
 
   return (
-    <div className="mt-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-200">
+    <div className="mt-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-200" data-testid="report-summary" >
       <h3 className="text-lg font-semibold text-gray-800 mb-4">
         Selected Portfolio Summary ({selectedIds.length} securities)
       </h3>
